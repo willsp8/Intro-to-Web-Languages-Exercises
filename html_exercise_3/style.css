@@ -1,0 +1,10 @@
+
+p span.border {
+    display: block;
+    /* where i found how to change the border color:border: https://www.w3schools.com/css/css_border.asp
+    the first thing i need to do is make a border-style class and 
+    create a border style and set it do solid (note: you have different styles such as dashed and dotted)
+    next we set the color we want */
+    border-style: solid;
+    border-color: green;
+}            
