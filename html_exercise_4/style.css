@@ -1,0 +1,11 @@
+p span.background1 {
+    display: block;
+    color: white;
+    background-color: green;
+}   
+p span.background2 {
+    display: block;
+    color: white;
+    background-color: blue;
+   
+} 

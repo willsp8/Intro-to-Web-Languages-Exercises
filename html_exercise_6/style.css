@@ -1,0 +1,38 @@
+/* where i found the text-align: center line of code
+link: https://www.w3schools.com/css/css_align.asp
+*/
+
+/*
+where i found my solution 
+link:https://stackoverflow.com/questions/42306417/how-do-i-center-header-text-in-the-middle-of-the-navigation-menu-in-html
+explain:
+*/
+
+/* where i found the margin-bottom
+link: https://www.w3schools.com/cssref/pr_margin-bottom.asp
+*/
+
+
+span.main-title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70;
+    
+}
+
+span.content{
+    
+    
+    
+}
+
+p span.background1{
+    background-color: #EFE1CE;
+}
+
+p span.background2{
+    background-color: blueviolet;
+}
