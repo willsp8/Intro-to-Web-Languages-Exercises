@@ -1,0 +1,21 @@
+<!-- gets the input from user. looks like its asking for a name --> 
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!-- looks like a button tag that says "click me"-->
+<button id="my-button">Click Me</button>
+
+<script>
+
+// creates a varible called myButton which is assigned to the my-button tag
+  var myButton = document.querySelector('#my-button');
+// creates a varible that is call nameInput that is assigned with the input from the user 
+  var nameInput = document.querySelector('#name-input');
+
+// creates a event listener that checks if user clicked on the my-button 
+  myButton.addEventListener('click', function () {
+      //if statment that checkes if the name input value does not equal nothing
+    if (nameInput.value !== '') {
+        //sends a message to user that should print out hello with the user name input
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
